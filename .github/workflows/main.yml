@@ -15,5 +15,5 @@ jobs:
       - name: Broken Link Check
         uses: technote-space/broken-link-checker-action@v2
         with:
-          TARGET: https://essexlocaloffer.org.uk
+          TARGET: https://www.essexlocaloffer.org.uk/
           RECURSIVE: true
