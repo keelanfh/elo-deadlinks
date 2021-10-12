@@ -13,4 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Broken Link Check
+        env:
+          TARGET: https://essexlocaloffer.org.uk
+          RECURSIVE: true
         uses: technote-space/broken-link-checker-action@v2
